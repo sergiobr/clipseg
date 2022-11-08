@@ -12,4 +12,4 @@ dependencies:
     - torchvision
     - opencv-python
     - Pillow
-    - git+https://github.com/openai/CLIP.git
+    - git+https://github.com/openai/CLIP.git clip
