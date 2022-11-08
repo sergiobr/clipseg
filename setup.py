@@ -10,7 +10,7 @@ requirements = [
     "torch",
     "torchvision",
     "opencv-python",
-    "CLIP @ git+https://github.com/openai/CLIP.git"
+    "clip @ git+https://github.com/openai/CLIP.git"
 ]
 
 setup(
@@ -21,7 +21,7 @@ setup(
         "../weights/*.pth",
     ]},
     version='0.0.1',
-    url='https://github.com/timojl/clipseg',
+    url='https://github.com/sergiobr/clipseg',
     python_requires='>=3.9',
     install_requires=requirements,
     description='This repository contains the code used in the paper "Image Segmentation Using Text and Image Prompts".',
